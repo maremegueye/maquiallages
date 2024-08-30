@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.banner {
+    background-image: url('../images/maquiage.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 250px 20px;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.cta-button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+   
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+.product-item img {
+   width: 400px;
+   height: 300px;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #ff69b4;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+.shop-item {
+   
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.59);
+    width: 350px;
+    margin: 20px;
+    
+  
+   
+}
+.shop-item img {
+    width: 100%;
+    max-width: 450px;
+   
+  
+}
+
+.shop-item .price {
+    font-size: 1.2em;
+    color:#ff69b4;
+    margin-bottom: 10px;
+}
+.shop-item .buy-button {
+    background-color:#ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.buy-button:hover {
+    background-color:#ff69b4;
+}
+
+
+
+
+
+.about-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-section h2 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.about-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+.tutorial-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+    padding-bottom: 20px;
+    background:rgba(255, 192, 203, 0.68);
+    margin: 5px;
+   font-weight: 300;
+   transition: background 0.5s, transform 0.5s;
+   border-radius: 15px;
+}
+.tutorial-item img {
+    width: 100%;
+   
+   
+}
+
+
+
+.tutorial-item .watch-button {
+    background-color:#ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.watch-button:hover {
+    background-color: #ff69b4;
+}
+
+.tutorial-item:hover{
+    background:rgba(255, 192, 203, 0.68) ;
+    transform: translate(-10px);
+} 
+
+
+
+
+
+.contact-section h2 {
+    color: #ff69b4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.contact-info div {
+    flex: 1;
+    margin-right: 20px;
+}
+.contact-info div:last-child {
+    margin-right: 0;
+}
+.contact-info h3 {
+    margin-top: 0;
+    color: #ff69b4;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.contact-form button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+}
+.contact-form button:hover {
+    background-color:  #ff69b4;
+}
